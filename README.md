@@ -2,6 +2,15 @@
 
 A developer-focused `Next.js + TypeScript` demo that compares `LI.FI Widget` and `LI.FI SDK` in one project.
 
+## 🚀 Live Demo
+
+**Try it now**: [https://lifi-integration-demo.vercel.app](https://lifi-integration-demo.vercel.app)
+
+- **Widget Demo**: [https://lifi-integration-demo.vercel.app/widget](https://lifi-integration-demo.vercel.app/widget)
+- **SDK Demo**: [https://lifi-integration-demo.vercel.app/sdk](https://lifi-integration-demo.vercel.app/sdk)
+
+**GitHub Repository**: [https://github.com/JackCC703/lifi-integration-demo](https://github.com/JackCC703/lifi-integration-demo)
+
 ## What this is
 
 This repo is not trying to be a polished consumer swap app. It is a public integration demo designed to help developers and technical interviewers answer four questions quickly:
@@ -127,14 +136,6 @@ npm run dev
 - Widget: [http://localhost:3000/widget](http://localhost:3000/widget)
 - SDK: [http://localhost:3000/sdk](http://localhost:3000/sdk)
 
-## Live Demo
-
-The project is deployed on Vercel:
-
-- **Home**: [https://lifi-integration-demo.vercel.app](https://lifi-integration-demo.vercel.app)
-- **Widget**: [https://lifi-integration-demo.vercel.app/widget](https://lifi-integration-demo.vercel.app/widget)
-- **SDK**: [https://lifi-integration-demo.vercel.app/sdk](https://lifi-integration-demo.vercel.app/sdk)
-
 ## Environment variables
 
 ```bash
@@ -148,6 +149,7 @@ Notes:
 - `LIFI_INTEGRATOR` is used by the server-side SDK config.
 - `LIFI_API_KEY` is optional for this MVP.
 - If an API key is used later, keep it server-only.
+- `NEXT_PUBLIC_APP_URL` should be set to your deployment URL in production (e.g., `https://lifi-integration-demo.vercel.app`).
 
 ## Running the demo
 
@@ -267,7 +269,7 @@ The project is deployed on Vercel. To deploy your own instance:
 - wallet connection and live execution
 - automatic status polling after execution
 - richer chain and token filtering
-- deployment URL and short walkthrough video
+- short walkthrough video
 - APAC and Chinese developer-specific documentation expansion
 
 ## Chinese tutorial
