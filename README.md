@@ -121,11 +121,19 @@ cp .env.example .env.local
 npm run dev
 ```
 
-4. Open the demo:
+4. Open the demo locally:
 
 - Home: [http://localhost:3000](http://localhost:3000)
 - Widget: [http://localhost:3000/widget](http://localhost:3000/widget)
 - SDK: [http://localhost:3000/sdk](http://localhost:3000/sdk)
+
+## Live Demo
+
+The project is deployed on Vercel:
+
+- **Home**: [https://lifi-integration-demo.vercel.app](https://lifi-integration-demo.vercel.app)
+- **Widget**: [https://lifi-integration-demo.vercel.app/widget](https://lifi-integration-demo.vercel.app/widget)
+- **SDK**: [https://lifi-integration-demo.vercel.app/sdk](https://lifi-integration-demo.vercel.app/sdk)
 
 ## Environment variables
 
@@ -245,9 +253,9 @@ Also verified at runtime with:
 
 ## Deployment
 
-The project is ready for deployment on Vercel, but this repository does not hardcode a live URL.
+**Live Demo**: [https://lifi-integration-demo.vercel.app](https://lifi-integration-demo.vercel.app)
 
-Recommended flow:
+The project is deployed on Vercel. To deploy your own instance:
 
 1. import the repo into Vercel
 2. set `LIFI_INTEGRATOR`
